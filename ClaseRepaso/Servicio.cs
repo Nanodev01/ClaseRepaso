@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 namespace ejercicioClase8
 {
     [Serializable]
-    internal class Servicio : ItemFactura
+    internal class Servicio: ItemFactura
     {
         private int tiempo;
-        public Servicio(string descrip, int tiempo) : base(descrip)
+        public Servicio (string descrip, int tiempo):base(descrip)
         {
             this.tiempo = tiempo;
         }
@@ -18,7 +18,7 @@ namespace ejercicioClase8
         {
             return Codigo + " " + Descripcion;
         }
-
+            
 
     }
 }

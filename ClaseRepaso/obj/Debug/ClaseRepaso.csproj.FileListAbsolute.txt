@@ -1,0 +1,4 @@
+C:\Users\Alumno\Desktop\asd\ClaseRepaso\obj\Debug\ClaseRepaso.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\asd\ClaseRepaso\obj\Debug\ClaseRepaso.Properties.Resources.resources
+C:\Users\Alumno\Desktop\asd\ClaseRepaso\obj\Debug\ClaseRepaso.csproj.GenerateResource.cache
+C:\Users\Alumno\Desktop\asd\ClaseRepaso\obj\Debug\ClaseRepaso.csproj.CoreCompileInputs.cache

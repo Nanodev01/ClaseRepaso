@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 namespace ejercicioClase8
 {
     [Serializable]
-    internal class Producto : ItemFactura
+    internal class Producto:ItemFactura
     {
         public int Stock
         {
-            set; get;
+            set;get;
         }
-        public Producto(string discripcion) : base(discripcion)
+        public Producto (string discripcion):base(discripcion)
         { }
         public override string ToString()
         {

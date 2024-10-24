@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F3B5137B-3126-4664-9E8D-8142C8DA5119}</ProjectGuid>
+    <ProjectGuid>{A42422C3-1FE1-4087-A109-7905D3BE5C58}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ClaseRepaso</RootNamespace>
-    <AssemblyName>ClaseRepaso</AssemblyName>
+    <RootNamespace>ejercicioClase8</RootNamespace>
+    <AssemblyName>ejercicioClase8</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -59,6 +59,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Servicio.cs" />
     <Compile Include="Sistema.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

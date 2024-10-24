@@ -12,8 +12,8 @@ namespace ejercicioClase8
         private DateTime fecha;
         private string[] items;
         public readonly string RazonSocial;
-        public readonly double total;
-        public OrdenDeObra(string razon, string[] items, double total)
+        public readonly double total; 
+        public OrdenDeObra(string razon, string[] items,double total)
         {
             fecha = DateTime.Now;
             this.items = items;
@@ -22,4 +22,3 @@ namespace ejercicioClase8
         }
     }
 }
-
