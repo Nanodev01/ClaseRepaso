@@ -9,12 +9,12 @@ using System.Windows.Forms;
 namespace ejercicioClase8
 {
     [Serializable]
-    internal class Sistema
+    class Sistema
     {
 
 
-        private List<ItemFactura> consumibles = new List<ItemFactura>();
-        private List<OrdenDeObra> ordenesGeneradas = new List<OrdenDeObra>();
+        public List<ItemFactura> consumibles = new List<ItemFactura>();
+        public List<OrdenDeObra> ordenesGeneradas = new List<OrdenDeObra>();
 
         public void AgregarConsumibles(string[] campos)
         {
@@ -24,14 +24,13 @@ namespace ejercicioClase8
                 if (campos.Length != 5)
                     throw new Exception("El elemento no contiene toda la informacion");
 
-                if (campos[0] == "s" || campos[0] == "S")  
-                    consumibles = new Servicio(campos[2]);
-                    consumibles.Codigo= Convert.ToInt32(campos[3]);
-                    consumibles.Precio = campos[4];
+                if (campos[0] == "s" || campos[0] == "S")
+                {
+                    consumibles = new Servicio(campos[2], 0);
+                    consumibles.Codigo = Convert.ToInt32(campos[3]);
+                    consumibles.Precio = Convert.ToDouble(campos[4]);
 
                 }
-                    
-
 
             }
             catch (FormatException fs)
@@ -41,8 +40,9 @@ namespace ejercicioClase8
             
         }
         public List<ItemFactura> verFactura()
-        { 
-            List<Itemfactura>
+        {
+
+            return null;
         }
 
         //sistema tiene que manejar todo el tema de los archivos, pasar todo desde el formulario a aca 

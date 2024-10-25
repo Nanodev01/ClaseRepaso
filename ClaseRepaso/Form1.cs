@@ -29,44 +29,12 @@ namespace ejercicioClase8
         StreamWriter sw;
         Sistema miEmpresa;
 
-        private void bLeer_Click(object sender, EventArgs e)
-        {
-            OpenFileDialog Abrir = new OpenFileDialog();
-            Abrir.InitialDirectory = ".";
-            Abrir.Filter = "Archivos CSV (*.CSV)|*.CSV";
-            if (Abrir.ShowDialog() == DialogResult.OK)
-            {
-                archivo = new FileStream(Abrir.FileName, FileMode.Open, FileAccess.Read);
-                sr = new StreamReader(archivo);
-                string linea;
-                string[] campos;
-                ItemFactura consumible;
-                while (!sr.EndOfStream)
-                {
-                    campos = sr.ReadLine().Split(';');
-                    if (campos[0] == "s" || campos[0] == "S")
-                    {
-                        consumible = new Servicio(campos[2],
-                                    Convert.ToInt32(campos[3]));
-                        consumible.Precio = Convert.ToDouble(campos[4]);
-                        consumible.Codigo = Convert.ToInt32(campos[1]);
-                        miEmpresa.consumibles.Add(consumible);
-                    }
-                    if (campos[0] == "p" || campos[0] == "P")
-                    {
-                        consumible = new Producto(campos[2]);
-                        consumible.Codigo = Convert.ToInt32(campos[1]);
-                        consumible.Precio = Convert.ToDouble(campos[4]);
-                        miEmpresa.consumibles.Add(consumible);
-                    }
-                }
-                sr.Close();
-                archivo.Close();
-                AgregarDatos();
-            }
-        }
+        // datos a incluir en sistema
+
         private void AgregarDatos()
         {
+           
+
             foreach (ItemFactura c in miEmpresa.consumibles)
             {
                 if (c is Servicio)
@@ -98,6 +66,8 @@ namespace ejercicioClase8
             bAgregarSer.Enabled = false;
             bGuardar.Enabled = false;
         }
+
+        // Fin
         private void bGenerar_Click(object sender, EventArgs e)
         {
             if (tBnombre.Enabled)
@@ -151,6 +121,12 @@ namespace ejercicioClase8
                                        items, total);
             miEmpresa.ordenesGeneradas.Add(unaOrden);
         }
+        
+
+
+        // Metodos que utilizan Archivos -> fs sr-w
+
+        // Estos botones son encargados de guardar en un csv lo de los clientes.
         private void bGuardar_Click(object sender, EventArgs e) // Boton de Guardar
         {
             lBitemFactura.Items.Add("Total a Pagar: " + total.ToString(" $0.00"));
@@ -159,17 +135,60 @@ namespace ejercicioClase8
             sw = new StreamWriter(archivo);
                 foreach (string linea in lBitemFactura.Items)
                     sw.WriteLine(linea);
-                sw.Close();
-            BinaryFormatter bf = new BinaryFormatter();
-            bf.Serialize(archivo, miEmpresa);
+            sw.Close();
             archivo.Close();
             GenerarOrden();
             FinalizarOrden();
         }
+        
+        private void bLeer_Click(object sender, EventArgs e)
+        {
+            cBproducto.Items.Clear();
+            cBservicio.Items.Clear();
+
+            OpenFileDialog Abrir = new OpenFileDialog();
+            Abrir.InitialDirectory = ".";
+            Abrir.Filter = "Archivos CSV (*.CSV)|*.CSV";
+            if (Abrir.ShowDialog() == DialogResult.OK)
+            {
+                archivo = new FileStream(Abrir.FileName, FileMode.Open, FileAccess.Read);
+                sr = new StreamReader(archivo);
+                string linea;
+                string[] campos;
+                ItemFactura consumible;
+
+
+                while (!sr.EndOfStream)
+                {
+                    campos = sr.ReadLine().Split(';');
+                    campos[0].ToUpper(); // Prueba de hacer todo en mayusculas
+                    if (campos[0] == "S")
+                    {
+                        consumible = new Servicio(campos[2],
+                                    Convert.ToInt32(campos[3]));
+                        consumible.Precio = Convert.ToDouble(campos[4]);
+                        consumible.Codigo = Convert.ToInt32(campos[1]);
+                        miEmpresa.consumibles.Add(consumible);
+                    }
+                    if (campos[0] == "P")
+                    {
+                        consumible = new Producto(campos[2]);
+                        consumible.Codigo = Convert.ToInt32(campos[1]);
+                        consumible.Precio = Convert.ToDouble(campos[4]);
+                        miEmpresa.consumibles.Add(consumible);
+                    }
+                }
+                sr.Close();
+                archivo.Close();
+                AgregarDatos();
+            }
+        }
+
+        // Carga de formulario y cierre
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            miEmpresa = new Sistema();
+            //miEmpresa = new Sistema();
 
             if (File.Exists("datos.bin")) 
             {
@@ -177,9 +196,11 @@ namespace ejercicioClase8
                 BinaryFormatter bf = new BinaryFormatter();
                 miEmpresa = (Sistema)bf.Deserialize(archivo);
                 AgregarDatos();
+                archivo.Close();
             }
             else
                 miEmpresa = new Sistema();
+            
         }
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
@@ -188,6 +209,11 @@ namespace ejercicioClase8
             BinaryFormatter bf = new BinaryFormatter();
             bf.Serialize(archivo, miEmpresa);
             archivo.Close();
+
+        }
+
+        private void bNuevoServ_Click(object sender, EventArgs e)
+        {
 
         }
     }

@@ -1,4 +1,6 @@
-s;10;limpieza;3;5000
-s;15;revision;2;3000
-p;200;mouse;10;1200
-p;210;azucar;20;1000
+s;10;Limpieza;3;5000;;;;
+s;15;Revision;2;3000;;;;
+s;16;Optimizacion;1;7000;;;;
+p;199;Monitor;11;170200;;;;
+p;200;Mouse;10;1200;;;;
+p;210;Computadora;20;1000;;;;

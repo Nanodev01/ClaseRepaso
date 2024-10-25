@@ -28,6 +28,8 @@ namespace ejercicioClase8
         public ItemFactura(string descripcion)
         {
             Descripcion = descripcion;
+            Codigo = 1;
+            Precio = 20;
         }
     }
 

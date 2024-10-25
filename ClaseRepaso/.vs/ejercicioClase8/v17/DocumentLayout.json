@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Escritorio\\Ejercico8Serializable\\",
+  "WorkspaceRootPath": "C:\\Users\\Nano\\source\\repos\\ClaseRepaso\\ClaseRepaso\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|d:\\escritorio\\ejercico8serializable\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|c:\\users\\nano\\source\\repos\\claserepaso\\claserepaso\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|solutionrelative:sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|c:\\users\\nano\\source\\repos\\claserepaso\\claserepaso\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|D:\\Escritorio\\Ejercico8Serializable\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|D:\\Escritorio\\Ejercico8Serializable\\ordendeobra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|solutionrelative:ordendeobra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|D:\\Escritorio\\Ejercico8Serializable\\itemfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|solutionrelative:itemfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|D:\\Escritorio\\Ejercico8Serializable\\servicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|C:\\Users\\Nano\\source\\repos\\ClaseRepaso\\ClaseRepaso\\servicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|solutionrelative:servicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|D:\\Escritorio\\Ejercico8Serializable\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|C:\\Users\\Nano\\source\\repos\\ClaseRepaso\\ClaseRepaso\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|solutionrelative:producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|D:\\Escritorio\\Ejercico8Serializable\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|solutionrelative:sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|C:\\Users\\Nano\\source\\repos\\ClaseRepaso\\ClaseRepaso\\ordendeobra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|solutionrelative:ordendeobra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|C:\\Users\\Nano\\source\\repos\\ClaseRepaso\\ClaseRepaso\\itemfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|solutionrelative:itemfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|C:\\Users\\Nano\\source\\repos\\ClaseRepaso\\ClaseRepaso\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A42422C3-1FE1-4087-A109-7905D3BE5C58}|ejercicioClase8.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,96 +38,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Nano\\source\\repos\\ClaseRepaso\\ClaseRepaso\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Nano\\source\\repos\\ClaseRepaso\\ClaseRepaso\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T17:06:25.786Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "ecdafdd7-a8f1-4c2e-8c31-24eafb2ff6c1",
+        "Display": 0,
+        "X": 156,
+        "Y": -20,
+        "Width": 1546,
+        "Height": 859,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Nano\\source\\repos\\ClaseRepaso\\ClaseRepaso\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Nano\\source\\repos\\ClaseRepaso\\ClaseRepaso\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAvwJEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T17:06:24.741Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Sistema.cs",
-              "DocumentMoniker": "D:\\Escritorio\\Ejercico8Serializable\\Sistema.cs",
+              "DocumentMoniker": "C:\\Users\\Nano\\source\\repos\\ClaseRepaso\\ClaseRepaso\\Sistema.cs",
               "RelativeDocumentMoniker": "Sistema.cs",
-              "ToolTip": "D:\\Escritorio\\Ejercico8Serializable\\Sistema.cs",
+              "ToolTip": "C:\\Users\\Nano\\source\\repos\\ClaseRepaso\\ClaseRepaso\\Sistema.cs",
               "RelativeToolTip": "Sistema.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAYwAgAAAASAAAAAAAAAA==",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACkAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T18:14:10.69Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "ItemFactura.cs",
+              "DocumentMoniker": "C:\\Users\\Nano\\source\\repos\\ClaseRepaso\\ClaseRepaso\\ItemFactura.cs",
+              "RelativeDocumentMoniker": "ItemFactura.cs",
+              "ToolTip": "C:\\Users\\Nano\\source\\repos\\ClaseRepaso\\ClaseRepaso\\ItemFactura.cs",
+              "RelativeToolTip": "ItemFactura.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T17:06:25.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "OrdenDeObra.cs",
-              "DocumentMoniker": "D:\\Escritorio\\Ejercico8Serializable\\OrdenDeObra.cs",
+              "DocumentMoniker": "C:\\Users\\Nano\\source\\repos\\ClaseRepaso\\ClaseRepaso\\OrdenDeObra.cs",
               "RelativeDocumentMoniker": "OrdenDeObra.cs",
-              "ToolTip": "D:\\Escritorio\\Ejercico8Serializable\\OrdenDeObra.cs",
+              "ToolTip": "C:\\Users\\Nano\\source\\repos\\ClaseRepaso\\ClaseRepaso\\OrdenDeObra.cs",
               "RelativeToolTip": "OrdenDeObra.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T17:12:44.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\Escritorio\\Ejercico8Serializable\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\Escritorio\\Ejercico8Serializable\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAKcAAAAAAAAAAAAIwLAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T17:06:24.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Escritorio\\Ejercico8Serializable\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\Escritorio\\Ejercico8Serializable\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T17:06:25.786Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Producto.cs",
-              "DocumentMoniker": "D:\\Escritorio\\Ejercico8Serializable\\Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Nano\\source\\repos\\ClaseRepaso\\ClaseRepaso\\Producto.cs",
               "RelativeDocumentMoniker": "Producto.cs",
-              "ToolTip": "D:\\Escritorio\\Ejercico8Serializable\\Producto.cs",
+              "ToolTip": "C:\\Users\\Nano\\source\\repos\\ClaseRepaso\\ClaseRepaso\\Producto.cs",
               "RelativeToolTip": "Producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T17:06:25.8Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Servicio.cs",
-              "DocumentMoniker": "D:\\Escritorio\\Ejercico8Serializable\\Servicio.cs",
+              "DocumentMoniker": "C:\\Users\\Nano\\source\\repos\\ClaseRepaso\\ClaseRepaso\\Servicio.cs",
               "RelativeDocumentMoniker": "Servicio.cs",
-              "ToolTip": "D:\\Escritorio\\Ejercico8Serializable\\Servicio.cs",
+              "ToolTip": "C:\\Users\\Nano\\source\\repos\\ClaseRepaso\\ClaseRepaso\\Servicio.cs",
               "RelativeToolTip": "Servicio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T17:06:25.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ItemFactura.cs",
-              "DocumentMoniker": "D:\\Escritorio\\Ejercico8Serializable\\ItemFactura.cs",
-              "RelativeDocumentMoniker": "ItemFactura.cs",
-              "ToolTip": "D:\\Escritorio\\Ejercico8Serializable\\ItemFactura.cs",
-              "RelativeToolTip": "ItemFactura.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T17:06:25.805Z",
               "EditorCaption": ""
             }
           ]

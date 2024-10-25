@@ -39,3 +39,13 @@ C:\Users\Alumno\Desktop\asd\ClaseRepaso\obj\Debug\ejercicioClase8.csproj.Generat
 C:\Users\Alumno\Desktop\asd\ClaseRepaso\obj\Debug\ejercicioClase8.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\Desktop\asd\ClaseRepaso\obj\Debug\ejercicioClase8.exe
 C:\Users\Alumno\Desktop\asd\ClaseRepaso\obj\Debug\ejercicioClase8.pdb
+C:\Users\Nano\source\repos\ClaseRepaso\ClaseRepaso\obj\Debug\ejercicioClase8.csproj.AssemblyReference.cache
+C:\Users\Nano\source\repos\ClaseRepaso\ClaseRepaso\obj\Debug\ejercicioClase8.Form1.resources
+C:\Users\Nano\source\repos\ClaseRepaso\ClaseRepaso\obj\Debug\ejercicioClase8.Properties.Resources.resources
+C:\Users\Nano\source\repos\ClaseRepaso\ClaseRepaso\obj\Debug\ejercicioClase8.csproj.GenerateResource.cache
+C:\Users\Nano\source\repos\ClaseRepaso\ClaseRepaso\obj\Debug\ejercicioClase8.csproj.CoreCompileInputs.cache
+C:\Users\Nano\source\repos\ClaseRepaso\ClaseRepaso\obj\Debug\ejercicioClase8.exe
+C:\Users\Nano\source\repos\ClaseRepaso\ClaseRepaso\obj\Debug\ejercicioClase8.pdb
+C:\Users\Nano\source\repos\ClaseRepaso\ClaseRepaso\bin\Debug\ejercicioClase8.exe.config
+C:\Users\Nano\source\repos\ClaseRepaso\ClaseRepaso\bin\Debug\ejercicioClase8.exe
+C:\Users\Nano\source\repos\ClaseRepaso\ClaseRepaso\bin\Debug\ejercicioClase8.pdb

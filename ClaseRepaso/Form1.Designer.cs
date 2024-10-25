@@ -132,6 +132,7 @@ namespace ejercicioClase8
             this.bNuevoServ.TabIndex = 1;
             this.bNuevoServ.Text = "Nuevo";
             this.bNuevoServ.UseVisualStyleBackColor = true;
+            this.bNuevoServ.Click += new System.EventHandler(this.bNuevoServ_Click);
             // 
             // cBservicio
             // 
