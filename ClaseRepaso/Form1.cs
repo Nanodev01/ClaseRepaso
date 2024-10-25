@@ -151,16 +151,18 @@ namespace ejercicioClase8
                                        items, total);
             miEmpresa.ordenesGeneradas.Add(unaOrden);
         }
-        private void bGuardar_Click(object sender, EventArgs e)
+        private void bGuardar_Click(object sender, EventArgs e) // Boton de Guardar
         {
             lBitemFactura.Items.Add("Total a Pagar: " + total.ToString(" $0.00"));
             string nombre = Application.StartupPath + @"\" + tBnombre.Text;
-            archivo = new FileStream(nombre, FileMode.Create, FileAccess.Write);
+            archivo = new FileStream(nombre, FileMode.OpenOrCreate, FileAccess.Write);
             sw = new StreamWriter(archivo);
                 foreach (string linea in lBitemFactura.Items)
                     sw.WriteLine(linea);
                 sw.Close();
-                archivo.Close();
+            BinaryFormatter bf = new BinaryFormatter();
+            bf.Serialize(archivo, miEmpresa);
+            archivo.Close();
             GenerarOrden();
             FinalizarOrden();
         }
@@ -185,6 +187,7 @@ namespace ejercicioClase8
             archivo = new FileStream("datos.bin", FileMode.Create, FileAccess.Write);
             BinaryFormatter bf = new BinaryFormatter();
             bf.Serialize(archivo, miEmpresa);
+            archivo.Close();
 
         }
     }

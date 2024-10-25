@@ -29,3 +29,13 @@ D:\Escritorio\Ejercico8Serializable\obj\Debug\ejercicioClase8.pdb
 D:\Escritorio\Ejercico8Serializable\bin\Debug\ejercicioClase8.exe.config
 D:\Escritorio\Ejercico8Serializable\bin\Debug\ejercicioClase8.exe
 D:\Escritorio\Ejercico8Serializable\bin\Debug\ejercicioClase8.pdb
+C:\Users\Alumno\Desktop\asd\ClaseRepaso\bin\Debug\ejercicioClase8.exe.config
+C:\Users\Alumno\Desktop\asd\ClaseRepaso\bin\Debug\ejercicioClase8.exe
+C:\Users\Alumno\Desktop\asd\ClaseRepaso\bin\Debug\ejercicioClase8.pdb
+C:\Users\Alumno\Desktop\asd\ClaseRepaso\obj\Debug\ejercicioClase8.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\asd\ClaseRepaso\obj\Debug\ejercicioClase8.Form1.resources
+C:\Users\Alumno\Desktop\asd\ClaseRepaso\obj\Debug\ejercicioClase8.Properties.Resources.resources
+C:\Users\Alumno\Desktop\asd\ClaseRepaso\obj\Debug\ejercicioClase8.csproj.GenerateResource.cache
+C:\Users\Alumno\Desktop\asd\ClaseRepaso\obj\Debug\ejercicioClase8.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\asd\ClaseRepaso\obj\Debug\ejercicioClase8.exe
+C:\Users\Alumno\Desktop\asd\ClaseRepaso\obj\Debug\ejercicioClase8.pdb
